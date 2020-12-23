@@ -55,4 +55,29 @@ export const AWARDS: IAward[] = [
     description:
       'Classnalytic - classroom analytic platform tracking students attendance, emotion and behavior then generate into a report',
   },
+  {
+    name:
+      'Actions on Google Hackathon Thailand 2018 - Google Developer Group Thailand',
+    prize: '1st Runner-up',
+    description:
+      'Siri FastPass - Google Assistant app help you and your guests visiting your residence easier',
+  },
+  {
+    name: 'The Stupid Hackathon 2018 - StupidHackTH Thailand',
+    prize: 'First Prize in the most Angry Emoji Vote Category',
+  },
+  {
+    name:
+      'ICT Challenge 2016 - SIT King Mongkut’s University of Technology Thonburi',
+    prize: 'Winner',
+  },
+  {
+    name: '2016 C Language Programming Competition - Silipakorn University',
+    prize: 'Winner',
+  },
+  {
+    name:
+      'Web Development with PHP and Javascript - IT Latkrabang Open House 2016',
+    prize: 'Winner',
+  },
 ]
