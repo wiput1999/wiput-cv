@@ -81,3 +81,21 @@ export const AWARDS: IAward[] = [
     prize: 'Winner',
   },
 ]
+
+export interface IActivity {
+  name: string
+  link?: string
+  role: string
+  from: string
+  to: string
+}
+
+export const ACTIVITIES: IActivity[] = [
+  {
+    name: '17th Young Webmaster Camp',
+    link: 'https://ywc17.ywc.in.th/',
+    role: 'Developer and Core Team',
+    from: 'June',
+    to: 'December 2019',
+  },
+]
