@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Paragraph from 'components/common/Paragraph'
+import Card from 'components/common/Card'
 import { IInternship } from 'utils/const'
 
 export const Internship = ({
@@ -10,11 +11,11 @@ export const Internship = ({
   to,
 }: IInternship): React.ReactElement => {
   return (
-    <div className='pb-4 pl-8'>
+    <Card>
       <Paragraph>{company}</Paragraph>
       <Paragraph color='gray'>
         {role} | {from} - {to}
       </Paragraph>
-    </div>
+    </Card>
   )
 }
