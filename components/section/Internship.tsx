@@ -10,7 +10,7 @@ export const Internship = ({
   to,
 }: IInternship): React.ReactElement => {
   return (
-    <div className='pb-2 pl-8'>
+    <div className='pb-4 pl-8'>
       <Paragraph>{company}</Paragraph>
       <Paragraph color='gray'>
         {role} | {from} - {to}

@@ -3,9 +3,10 @@ import React from 'react'
 import Subtitle from 'components/common/Subtitle'
 import Title from 'components/common/Title'
 import Topic from 'components/common/Topic'
-import { EDUCATIONS, INTERNSHIPS } from 'utils/const'
+import { AWARDS, EDUCATIONS, INTERNSHIPS } from 'utils/const'
 import { Internship } from 'components/section/Internship'
 import { Education } from 'components/section/Education'
+import { Award } from 'components/section/Award'
 
 export default function Index(): React.ReactElement {
   return (
@@ -22,6 +23,10 @@ export default function Index(): React.ReactElement {
       <Topic>Educations</Topic>
       {EDUCATIONS.map(data => (
         <Education key={data.institite} {...data} />
+      ))}
+      <Topic>Awards</Topic>
+      {AWARDS.map(data => (
+        <Award key={data.name} {...data} />
       ))}
     </div>
   )

@@ -10,7 +10,7 @@ export const Education = ({
   to,
 }: IEducation): React.ReactElement => {
   return (
-    <div className='pb-2 pl-8'>
+    <div className='pb-4 pl-8'>
       <Paragraph>{institite}</Paragraph>
       <Paragraph color='gray'>
         {degree} | {from} - {to}
