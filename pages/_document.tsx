@@ -18,11 +18,11 @@ class NextDocument extends Document {
     return { ...initialProps }
   }
 
-  public render(): JSX.Element {
+  public render(): React.ReactElement {
     return (
       <Html lang='en'>
         <Head />
-        <body>
+        <body className='bg-gray-50'>
           <Main />
           <NextScript />
         </body>

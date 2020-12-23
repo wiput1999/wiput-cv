@@ -1,7 +1,3 @@
-import React from 'react'
+import Index from 'components/pages/Index'
 
-function HomePage(): React.ReactNode {
-  return <div className='font-bold'>Welcome to Next.js!</div>
-}
-
-export default HomePage
+export default Index
