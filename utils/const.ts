@@ -100,7 +100,7 @@ export const ACTIVITIES: IActivity[] = [
   },
 ]
 
-export interface IProject {
+export interface IFeaturedProject {
   name: string
   year: string
   description: string
@@ -110,7 +110,7 @@ export interface IProject {
   }[]
 }
 
-export const PROJECTS: IProject[] = [
+export const FEATUREDPROJECTS: IFeaturedProject[] = [
   {
     name: '17th Young Webmaster Camp',
     year: '2019',
@@ -120,6 +120,43 @@ export const PROJECTS: IProject[] = [
         title: 'Registration System',
         link: 'https://github.com/WebmasterCamp/ywc17-register',
       },
+      {
+        title: 'API',
+        link: 'https://github.com/WebmasterCamp/ywc-api',
+      },
+      {
+        title: 'Backoffice System',
+        link: 'https://github.com/WebmasterCamp/ywc-backoffice',
+      },
+      {
+        title: 'Landing Page',
+        link: 'https://github.com/webmasterCamp/ywc17-landing',
+      },
+    ],
+  },
+  {
+    name: '11th Junior Webmaster Camp',
+    year: '2019',
+    description: '11th Junior Webmaster Camp Landing Page',
+    links: [
+      {
+        title: 'Github',
+        link: 'https://github.com/WebmasterCamp/jwc11-landing',
+      },
+      { title: 'Website', link: 'https://jwc.in.th/' },
+    ],
+  },
+  {
+    name: 'AQI Realtime Monitor',
+    year: '2018',
+    description:
+      'Realtime Air Quality Index Monitor at Faculty of Information Technology, KMITL',
+    links: [
+      {
+        title: 'Github',
+        link: 'https://github.com/wiput1999/air-monitor-frontend',
+      },
+      { title: 'Website', link: 'https://aqi-it.netlify.app/' },
     ],
   },
 ]
