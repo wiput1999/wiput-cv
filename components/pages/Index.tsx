@@ -11,12 +11,14 @@ import {
   INTERNSHIPS,
   FEATUREDPROJECTS,
   SKILLS,
+  SCHOOLPROJECTS,
 } from 'utils/const'
 import { Internship } from 'components/section/Internship'
 import { Education } from 'components/section/Education'
 import { Award } from 'components/section/Award'
 import { Activity } from 'components/section/Activity'
 import { FeaturedProject } from 'components/section/FeaturedProject'
+import { SchoolProject } from 'components/section/SchoolProject'
 
 export default function Index(): React.ReactElement {
   return (
@@ -45,6 +47,10 @@ export default function Index(): React.ReactElement {
       <Topic>Featured Projects</Topic>
       {FEATUREDPROJECTS.map(data => (
         <FeaturedProject key={data.name} {...data} />
+      ))}
+      <Topic>School Projects</Topic>
+      {SCHOOLPROJECTS.map(data => (
+        <SchoolProject key={data.name} {...data} />
       ))}
       <Topic>Skills</Topic>
       <div className='grid grid-cols-4'>

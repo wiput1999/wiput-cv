@@ -161,6 +161,73 @@ export const FEATUREDPROJECTS: IFeaturedProject[] = [
   },
 ]
 
+export interface ISchoolProject {
+  name: string
+  year: string
+  description: string
+  link: string
+}
+
+export const SCHOOLPROJECTS: ISchoolProject[] = [
+  {
+    name: 'E-Wallet',
+    year: '2019',
+    description: 'E-Wallet API implemented in Microservice',
+    link: 'https://github.com/wiput1999/sop-e-wallet',
+  },
+  {
+    name: 'Hotel Service Management',
+    year: '2019',
+    description: 'Phoneless room service platform',
+    link: 'https://github.com/hotel-service-management',
+  },
+  {
+    name: 'MedicCare',
+    year: '2019',
+    description: 'Medication reminder application builds on Flutter',
+    link: 'https://github.com/itforge-eros/MedicCare',
+  },
+  {
+    name: 'jMedicine',
+    year: '2018',
+    description:
+      'A desktop application that helps to manage your daily medication',
+    link: 'https://github.com/oop-it-kmitl-61/jMedicine',
+  },
+  {
+    name: 'Siri FastPass',
+    year: '2018',
+    description:
+      'Google Assistant app helps your guests visiting your residence more comfortable',
+    link: 'https://github.com/actions-on-falcon/siri-fastpass',
+  },
+  {
+    name: 'IT Freshy Web Application',
+    year: '2018',
+    description: 'Web Application for Freshy Activity',
+    link: 'https://github.com/itforge-eros/FWA2018',
+  },
+  {
+    name: 'Prachoup Khiri Khan Tourist Guide',
+    year: '2018',
+    description:
+      'Prachoup Khiri Khan Tourist Guide Website, part of Multimedia Class',
+    link: 'https://github.com/wiput1999/MultimediaProject2017',
+  },
+  {
+    name: 'Home Monitoring Platform',
+    year: '2018',
+    description: 'A 24 hours automated spectator in your home',
+    link: 'https://github.com/wiput1999/ComPro2017-Project',
+  },
+  {
+    name: 'Terrorism Analysis',
+    year: '2017',
+    description: 'Terrorism Analysis, part of PSIT class',
+    link: 'https://github.com/wiput1999/TerrorismAnalysis',
+  },
+]
+
 export const SKILLS: string[] = [
   'React',
   'JavaScript',
