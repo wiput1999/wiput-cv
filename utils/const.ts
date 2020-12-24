@@ -99,3 +99,47 @@ export const ACTIVITIES: IActivity[] = [
     to: 'December 2019',
   },
 ]
+
+export interface IProject {
+  name: string
+  year: string
+  description: string
+  links: {
+    title: string
+    link: string
+  }[]
+}
+
+export const PROJECTS: IProject[] = [
+  {
+    name: '17th Young Webmaster Camp',
+    year: '2019',
+    description: 'Registration Website, API and Backoffice',
+    links: [
+      {
+        title: 'Registration System',
+        link: 'https://github.com/WebmasterCamp/ywc17-register',
+      },
+    ],
+  },
+]
+
+export const SKILLS: string[] = [
+  'React',
+  'JavaScript',
+  'TypeScript',
+  'Firebase',
+  'NodeJS',
+  'MySQL',
+  'PostgreSQL',
+  'MongoDB',
+  'ExpressJS',
+  'NestJS',
+  'TypeORM',
+  'Docker',
+  'Kubernetes',
+  'Python',
+  'Django',
+  'Java',
+  'Spring',
+]

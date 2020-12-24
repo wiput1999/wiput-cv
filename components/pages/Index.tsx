@@ -3,7 +3,13 @@ import React from 'react'
 import Subtitle from 'components/common/Subtitle'
 import Title from 'components/common/Title'
 import Topic from 'components/common/Topic'
-import { ACTIVITIES, AWARDS, EDUCATIONS, INTERNSHIPS } from 'utils/const'
+import {
+  ACTIVITIES,
+  AWARDS,
+  EDUCATIONS,
+  INTERNSHIPS,
+  SKILLS,
+} from 'utils/const'
 import { Internship } from 'components/section/Internship'
 import { Education } from 'components/section/Education'
 import { Award } from 'components/section/Award'
@@ -11,7 +17,7 @@ import { Activity } from 'components/section/Activity'
 
 export default function Index(): React.ReactElement {
   return (
-    <div className='container mx-auto pt-8'>
+    <div className='container mx-auto max-w-5xl py-8'>
       <Title>Wiput Pootong</Title>
       <Subtitle>
         Senior Student at Faculty of Information Technology, KMITL
@@ -33,6 +39,14 @@ export default function Index(): React.ReactElement {
       {ACTIVITIES.map(data => (
         <Activity key={data.name} {...data} />
       ))}
+      <Topic>Skills</Topic>
+      <div className='grid grid-cols-4'>
+        {SKILLS.map(data => (
+          <div className='py-2 text-center' key={data}>
+            {data}
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
