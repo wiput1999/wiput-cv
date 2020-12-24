@@ -60,7 +60,7 @@ export const AWARDS: IAward[] = [
       'Actions on Google Hackathon Thailand 2018 - Google Developer Group Thailand',
     prize: '1st Runner-up',
     description:
-      'Siri FastPass - Google Assistant app help you and your guests visiting your residence easier',
+      'Siri FastPass - Google Assistant app helps your guests visiting your residence more comfortable',
   },
   {
     name: 'The Stupid Hackathon 2018 - StupidHackTH Thailand',
