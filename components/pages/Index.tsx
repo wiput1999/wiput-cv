@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebookSquare, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 import Subtitle from 'components/common/Subtitle'
 import Title from 'components/common/Title'
@@ -52,6 +53,32 @@ export default function Index(): React.ReactElement {
             {data}
           </div>
         ))}
+      </div>
+      <div className='text-center mt-4 flex justify-center'>
+        <div className='px-4'>
+          <a
+            href='https://fb.com/wiput.pootong'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <FaFacebookSquare size='48px' />
+          </a>
+        </div>
+        <div className='px-4'>
+          <a
+            href='https://github.com/wiput1999'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <FaGithub size='48px' />
+          </a>
+        </div>
+        <div className='px-4'>
+          <a
+            href='https://www.linkedin.com/in/wiputpootong/'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <FaLinkedin size='48px' />
+          </a>
+        </div>
       </div>
     </div>
   )
