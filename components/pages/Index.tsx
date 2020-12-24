@@ -54,7 +54,7 @@ export default function Index(): React.ReactElement {
           </div>
         ))}
       </div>
-      <div className='text-center mt-4 flex justify-center'>
+      <div className='text-center mt-4 flex justify-center text-gray-700'>
         <div className='px-4'>
           <a
             href='https://fb.com/wiput.pootong'
